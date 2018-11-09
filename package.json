@@ -1,0 +1,9 @@
+{
+  "name": "@superdeskwebpublisher/talk-plugin-publisher-notifications",
+  "pluginName": "talk-plugin-publisher-notifications",
+  "version": "0.0.1",
+  "description": "Notifies Superdesk Publisher API endpoint when new comment is created.",
+  "main": "index.js",
+  "author": "Tomasz Rondio <tomasz.rondio@sourcefabric.org>",
+  "license": "AGPL-3.0"
+}

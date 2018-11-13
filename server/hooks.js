@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const AssetModel = require('../../../models/asset');
+const CommentModel = require('../../../models/comment');
 
 module.exports = {
   RootMutation: {
@@ -16,7 +17,7 @@ module.exports = {
               'x-superdesk-signature': 'sha1=' + process.env.TALK_PUBLISHER_AUTH_TOKEN
             },
             body: JSON.stringify({
-              article: {
+              article_comments: {
                 url: asset.url,
                 commentsCount: commentCount
               }
